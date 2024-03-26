@@ -2,19 +2,22 @@ package model;
 
 public class Cliente {
     //atributos
-    String cpf;
-    String nome;
-    String sobrenome;
-    String endereco;
-    String cep;
-    String telefone;
-    String email;
+
+    private long id;
+    private String cpf;
+    private String nome;
+    private String sobrenome;
+    private String endereco;
+    private String cep;
+    private String telefone;
+    private String email;
 
     //Métodos construtores
     public Cliente() {
     }
 
-    public Cliente(String cpf, String nome, String sobrenome, String endereco, String cep, String telefone, String email) {
+    public Cliente(long id, String cpf, String nome, String sobrenome, String endereco, String cep, String telefone, String email) {
+        this.id = id;
         this.cpf = cpf;
         this.nome = nome;
         this.sobrenome = sobrenome;
@@ -24,13 +27,21 @@ public class Cliente {
         this.email = email;
     }
 
-    public Cliente(String cpf, String nome, String sobrenome) {
+    public Cliente(long id, String cpf, String nome, String sobrenome) {
+        this.id = id;
         this.cpf = cpf;
         this.nome = nome;
         this.sobrenome = sobrenome;
     }
 
-    //Métodos acessores (de acesso)
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
     public String getCpf() {
         return cpf;
     }
@@ -87,11 +98,11 @@ public class Cliente {
         this.email = email;
     }
 
-    //Conversor de Objeto para String
     @Override
     public String toString() {
-        return "model.Cliente{" +
-            "cpf='" + cpf + '\'' +
+        return "\nCliente{" +
+            "id=" + id +
+            ", cpf='" + cpf + '\'' +
             ", nome='" + nome + '\'' +
             ", sobrenome='" + sobrenome + '\'' +
             ", endereco='" + endereco + '\'' +

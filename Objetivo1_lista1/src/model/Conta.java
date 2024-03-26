@@ -28,18 +28,8 @@ public class Conta {
         return saldo;
     }
 
-    public void deposita(double valor){
-        //this.saldo = this.saldo + valor;
-        this.saldo += valor;
-    }
-
-    public void saca(double valor){
-        this.saldo -= valor;
-    }
-
-    public void atualiza(double taxa){
-        this.saldo = this.saldo + (this.saldo * taxa/100);
-        this.saldo += this.saldo * taxa/100;
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
     }
 
     @Override
