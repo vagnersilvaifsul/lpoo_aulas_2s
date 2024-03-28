@@ -4,26 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b1c3667-bca5-410b-b44d-f25ccef2ff4d" name="Changes" comment="Aula da semana 3.">
-      <change afterPath="$PROJECT_DIR$/heranca_multipla/heranca_multipla.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heranca_multipla/src/control/SicrediController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heranca_multipla/src/model/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heranca_multipla/src/model/Desenvolvedor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heranca_multipla/src/model/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heranca_multipla/src/model/Gerente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heranca_multipla/src/model/Investidor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heranca_simples/heranca_simples.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heranca_simples/src/controller/ContaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heranca_simples/src/model/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heranca_simples/src/model/ContaConjunta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heranca_simples/src/model/ContaCorrente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heranca_simples/src/model/ContaPoupanca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heranca_simples/src/model/ContaPoupancaSalario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="9b1c3667-bca5-410b-b44d-f25ccef2ff4d" name="Changes" comment="Aula da semana 5, herança múltipla.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Objetivo1_lista1/src/model/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/Objetivo1_lista1/src/model/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objetivo1_aulas/src/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo1_aulas/src/controller/ClienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objetivo1_aulas/src/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo1_aulas/src/model/Cliente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +57,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "Errors",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -199,7 +182,8 @@
       <workItem from="1709639997424" duration="3447000" />
       <workItem from="1710243352348" duration="6176000" />
       <workItem from="1710850896232" duration="4118000" />
-      <workItem from="1711455519415" duration="1621000" />
+      <workItem from="1711455519415" duration="2935000" />
+      <workItem from="1711463423249" duration="73000" />
     </task>
     <task id="LOCAL-00001" summary="Aulas das semanas 1 e 2">
       <option name="closed" value="true" />
@@ -217,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709649593417</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Aula da semana 5, herança múltipla.">
+      <option name="closed" value="true" />
+      <created>1711460413467</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711460413467</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +219,11 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Aulas das semanas 1 e 2" />
     <MESSAGE value="Aula da semana 3." />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula da semana 3." />
+    <MESSAGE value="Aula da semana 5, herança múltipla." />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula da semana 5, herança múltipla." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
