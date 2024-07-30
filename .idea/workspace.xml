@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b1c3667-bca5-410b-b44d-f25ccef2ff4d" name="Changes" comment="Aula da semana 5, herança múltipla.">
+    <list default="true" id="9b1c3667-bca5-410b-b44d-f25ccef2ff4d" name="Changes" comment="docs: comentários sobre as regras das interfaces">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,33 +35,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Cliente.executor": "Run",
-    "Application.ClienteController.executor": "Run",
-    "Application.ContaController.executor": "Run",
-    "Application.Pessoa.executor": "Run",
-    "Application.PessoaController.executor": "Run",
-    "Application.SicrediController.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "Errors",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Cliente.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClienteController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ContaController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Pessoa.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PessoaController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SicrediController.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/vagner/intellij_projects/lpoo_aulas_2s&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.SicrediController">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
@@ -114,7 +116,7 @@
     </configuration>
     <configuration name="ContaController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="controller.ContaController" />
-      <module name="heranca_simples" />
+      <module name="objetivo2_heranca_simples" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="controller.*" />
@@ -140,7 +142,7 @@
     </configuration>
     <configuration name="SicrediController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="control.SicrediController" />
-      <module name="heranca_multipla" />
+      <module name="objetivo2_heranca_multipla" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="control.*" />
@@ -164,7 +166,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-53826d6a" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -184,6 +187,9 @@
       <workItem from="1710850896232" duration="4118000" />
       <workItem from="1711455519415" duration="2935000" />
       <workItem from="1711463423249" duration="73000" />
+      <workItem from="1711636497347" duration="124000" />
+      <workItem from="1720023321627" duration="203000" />
+      <workItem from="1720024519952" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="Aulas das semanas 1 e 2">
       <option name="closed" value="true" />
@@ -209,7 +215,39 @@
       <option name="project" value="LOCAL" />
       <updated>1711460413467</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="docs: nome dos módulos semânticos">
+      <option name="closed" value="true" />
+      <created>1711636566023</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711636566023</updated>
+    </task>
+    <task id="LOCAL-00005" summary="docs: comentários sobre as regras das interfaces">
+      <option name="closed" value="true" />
+      <created>1720023371749</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720023371749</updated>
+    </task>
+    <task id="LOCAL-00006" summary="docs: comentários sobre as regras das interfaces">
+      <option name="closed" value="true" />
+      <created>1720023515627</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720023515627</updated>
+    </task>
+    <task id="LOCAL-00007" summary="docs: comentários sobre as regras das interfaces">
+      <option name="closed" value="true" />
+      <created>1720024540632</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720024540632</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +258,9 @@
     <MESSAGE value="Aulas das semanas 1 e 2" />
     <MESSAGE value="Aula da semana 3." />
     <MESSAGE value="Aula da semana 5, herança múltipla." />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula da semana 5, herança múltipla." />
+    <MESSAGE value="docs: nome dos módulos semânticos" />
+    <MESSAGE value="docs: comentários sobre as regras das interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: comentários sobre as regras das interfaces" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
